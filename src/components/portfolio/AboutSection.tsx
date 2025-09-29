@@ -1,10 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, GraduationCap, User } from "lucide-react";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="section-padding">
+  return <section id="about" className="section-padding">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl font-bold gradient-text mb-4">
@@ -37,13 +35,15 @@ const AboutSection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-text-muted">
                 <MapPin className="h-4 w-4" />
-                <span>Planalto Boa Esperança, Valentina nº 71 - João Pessoa</span>
+                <span>Planalto Boa Esperança, Valentina S/N - João Pessoa</span>
               </div>
             </div>
           </Card>
 
           {/* Education */}
-          <Card className="glass-card p-6 animate-slide-up" style={{ animationDelay: '0.1s' }}>
+          <Card className="glass-card p-6 animate-slide-up" style={{
+          animationDelay: '0.1s'
+        }}>
             <div className="flex items-start gap-4 mb-6">
               <div className="p-3 bg-brand-primary/10 rounded-xl">
                 <GraduationCap className="h-6 w-6 text-brand-primary" />
@@ -106,8 +106,6 @@ const AboutSection = () => {
           </div>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
