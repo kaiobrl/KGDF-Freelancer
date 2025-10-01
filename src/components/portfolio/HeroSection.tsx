@@ -31,7 +31,7 @@ const HeroSection = () => {
 
         {/* Contact Links */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <Button variant="outline" size="sm" className="glass-card hover:bg-brand-primary hover:text-text-inverse transition-all duration-300" onClick={() => window.open('mailto:ikicicvt@gmail.com')}>
+          <Button variant="outline" size="sm" className="glass-card hover:bg-brand-primary hover:text-text-inverse transition-all duration-300" onClick={() => window.open('mailto:formatolivre1@gmail.com')}>
             <Mail className="mr-2 h-4 w-4" />
             Email
           </Button>

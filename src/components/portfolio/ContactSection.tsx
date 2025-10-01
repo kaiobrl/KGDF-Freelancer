@@ -5,8 +5,8 @@ const ContactSection = () => {
   const contactInfo = [{
     icon: Mail,
     label: "Email",
-    value: "ikicicvt@gmail.com",
-    action: () => window.open('mailto:ikicicvt@gmail.com')
+    value: "formatolivre1@gmail.com",
+    action: () => window.open('mailto:formatolivre1@gmail.com')
   }, {
     icon: Phone,
     label: "Telefone",
@@ -84,7 +84,7 @@ const ContactSection = () => {
 
             {/* CTA Buttons */}
             <div className="mt-8 space-y-3">
-              <Button className="w-full hero-button" onClick={() => window.open('mailto:ikicicvt@gmail.com')}>
+              <Button className="w-full hero-button" onClick={() => window.open('mailto:formatolivre1@gmail.com')}>
                 <Mail className="mr-2 h-4 w-4" />
                 Enviar Email
               </Button>
@@ -104,7 +104,7 @@ const ContactSection = () => {
               Se você tem uma vaga ou projeto que se alinha com minhas habilidades, 
               adoraria conversar!
             </p>
-            <Button className="hero-button" size="lg" onClick={() => window.open('mailto:ikicicvt@gmail.com?subject=Oportunidade de Trabalho')}>
+            <Button className="hero-button" size="lg" onClick={() => window.open('mailto:formatolivre1@gmail.com?subject=Oportunidade de Trabalho')}>
               Vamos Conversar
             </Button>
           </div>
